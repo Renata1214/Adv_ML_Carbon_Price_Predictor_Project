@@ -35,7 +35,7 @@ Carbon markets are rapidly growing as part of the global push toward emission re
    - Walk-forward validation, chronological train/test splits
 
 
-![alt text](image-3.png)
+![alt text](image-4.png)
 
 
 ---
