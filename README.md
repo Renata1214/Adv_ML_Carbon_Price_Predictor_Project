@@ -43,7 +43,13 @@ Carbon markets are rapidly growing as part of the global push toward emission re
 ---
 
 ## 📊 Results
-![alt text](image-1.png)
+| Model                   | MSE    | RMSE  | MAE   | R²   |
+|--------------------------|--------|-------|-------|------|
+| Random Forest (baseline) | 12.25  | 3.50  | 2.821 | 0.873 |
+| Hybrid MLP + LSTM        | 8.166  | 2.857 | 2.206 | 0.831 |
+| Residual + Attention LSTM| **4.27** | **2.066** | **1.641** | **0.946** |
+| TabNet                   | 410.3  | 20.25 | 16.14 | 2.266 |
+
 
 👉 **Residual + Attention LSTM** achieved the strongest performance with **R² = 0.946**.
 
